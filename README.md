@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ohm&fontSize=52&fontColor=F0EDE8&animation=twinkling&fontAlignY=36&desc=building%20things%20that%20shouldn%27t%20exist%20yet&descAlignY=58&descSize=17&descColor=8b949e" width="100%"/>
-</p>
-
-<p align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1200&color=C8BEB0&center=true&vCenter=true&width=500&lines=cs+student+%7C+bengaluru;building+Studex+%F0%9F%8E%93;shipping+daily+using+AI+tools;paste+a+playlist%2C+get+a+morning+course;one+headline+actually+worth+knowing;turn+any+idea+into+code+by+morning" alt="Typing SVG" />
   </a>
@@ -58,6 +54,3 @@
   <img alt="contribution snake" src="https://raw.githubusercontent.com/howwohmm/howwohmm/output/github-contribution-grid-snake-dark.svg">
 </picture>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
-</p>
