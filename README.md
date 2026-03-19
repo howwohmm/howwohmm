@@ -44,13 +44,4 @@
 
 <img src="https://streak-stats.demolab.com?user=howwohmm&theme=dark&hide_border=true&background=0D1117&stroke=30363D&ring=C8BEB0&fire=F0EDE8&currStreakLabel=F0EDE8&sideLabels=8b949e&dates=8b949e" />
 
----
-
-### contribution snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/howwohmm/howwohmm/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/howwohmm/howwohmm/output/github-contribution-grid-snake.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/howwohmm/howwohmm/output/github-contribution-grid-snake-dark.svg">
-</picture>
 
