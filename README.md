@@ -1,20 +1,31 @@
-### hey, i'm ohm 👋
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ohm&fontSize=52&fontColor=F0EDE8&animation=twinkling&fontAlignY=36&desc=building%20things%20that%20shouldn%27t%20exist%20yet&descAlignY=58&descSize=17&descColor=8b949e" width="100%"/>
+</p>
 
-cs student in bengaluru. i build web apps, chrome extensions, AI pipelines, and ops tools — mostly because the thing i need doesn't exist yet. been shipping daily using cursor, claude, and other AI tools.
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1200&color=C8BEB0&center=true&vCenter=true&width=500&lines=cs+student+%7C+bengaluru;building+Studex+%F0%9F%8E%93;shipping+daily+using+AI+tools;paste+a+playlist%2C+get+a+morning+course;one+headline+actually+worth+knowing;turn+any+idea+into+code+by+morning" alt="Typing SVG" />
+  </a>
+</p>
 
-i care about software that earns a place in someone's morning.
+<p align="center">
+  <a href="https://twitter.com/ohmdreams"><img src="https://img.shields.io/badge/@ohmdreams-1DA1F2?style=flat-square&logo=twitter&logoColor=white"/></a>
+  <a href="mailto:mishraom.work@gmail.com"><img src="https://img.shields.io/badge/mishraom.work@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+  <img src="https://komarev.com/ghpvc/?username=howwohmm&style=flat-square&color=C8BEB0&label=visitors"/>
+</p>
 
 ---
 
-**things i'm working on right now**
+### what i'm building
 
-- 🎓 **[Studex](https://github.com/howwohmm/studex)** — mobile app for indian college students. answers one question every morning: *what do i have today?* timetable + subject folders + bunk tracker. pre-launch, 10 early users.
-- 📧 **[Capsule](https://github.com/howwohmm/capsule)** — paste a YouTube playlist → AI pulls transcripts → generates a structured email course → delivers one per morning. live at [mindos.fly.dev](https://mindos.fly.dev)
-- 🗞️ **[Refresh](https://github.com/howwohmm/refresh-by-ohm)** — chrome extension that replaces your new tab with one AI-ranked news headline. 29 RSS feeds, signal scoring, physics graph. zero dependencies.
+- 🎓 **[Studex](https://github.com/howwohmm/studex)** — mobile app for indian college students. answers one question every morning: *what do i have today?* timetable + folders + bunk tracker. pre-launch.
+- 📧 **[Capsule](https://github.com/howwohmm/capsule)** — paste a YouTube playlist → AI pulls transcripts → structured email course → one email per morning. live at [mindos.fly.dev](https://mindos.fly.dev)
+- 🗞️ **[Refresh](https://github.com/howwohmm/refresh-by-ohm)** — chrome extension. replaces new tab with one AI-ranked news headline. 29 RSS feeds, signal scoring (0–100), physics graph. zero dependencies.
+- 💬 **[Contrarian](https://github.com/howwohmm/contrarian-by-ohm)** — chrome extension. one paul graham quote per day. 125 quotes from 98 essays. daily seeded shuffle, no backend.
 
 ---
 
-**stack i reach for**
+### stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -24,13 +35,14 @@ i care about software that earns a place in someone's morning.
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Fly.io](https://img.shields.io/badge/Fly.io-7C3AED?style=flat-square&logo=flydotio&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 ---
 
-**stats**
+### stats
 
 <p align="left">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=howwohmm&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=F0EDE8&text_color=8b949e&icon_color=C8BEB0&count_private=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=howwohmm&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=F0EDE8&text_color=8b949e&icon_color=C8BEB0&count_private=true&include_all_commits=true" />
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=howwohmm&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=F0EDE8&text_color=8b949e&langs_count=6" />
 </p>
 
@@ -38,7 +50,14 @@ i care about software that earns a place in someone's morning.
 
 ---
 
-**find me**
+### contribution snake
 
-[![Twitter](https://img.shields.io/badge/@ohmdreams-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/ohmdreams)
-[![Email](https://img.shields.io/badge/mishraom.work@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mishraom.work@gmail.com)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/howwohmm/howwohmm/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/howwohmm/howwohmm/output/github-contribution-grid-snake.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/howwohmm/howwohmm/output/github-contribution-grid-snake-dark.svg">
+</picture>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+</p>
