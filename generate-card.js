@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // generate-card.js — builds an SVG stats card from second brain data
 // no dependencies, pure Node.js
+// design: quiet dark theme — text-first, warm, restrained
 
 const fs = require('fs');
 const path = require('path');
@@ -8,88 +9,81 @@ const path = require('path');
 const BRAIN_DIR = process.env.BRAIN_DIR || path.join(require('os').homedir(), 'obsidian-vault', 'brain');
 
 function readJSON(file) {
-  return JSON.parse(fs.readFileSync(path.join(BRAIN_DIR, file), 'utf8'));
+  try { return JSON.parse(fs.readFileSync(path.join(BRAIN_DIR, file), 'utf8')); }
+  catch { return null; }
 }
 
 function readLastLine(file) {
-  const lines = fs.readFileSync(path.join(BRAIN_DIR, file), 'utf8').trim().split('\n');
-  return JSON.parse(lines[lines.length - 1]);
+  try {
+    const lines = fs.readFileSync(path.join(BRAIN_DIR, file), 'utf8').trim().split('\n');
+    return JSON.parse(lines[lines.length - 1]);
+  } catch { return null; }
 }
 
 // if BRAIN_DATA env var is set, use that instead of files (for CI)
-let xp, omega, energy, statsLog;
+let xp, energy, health;
 
 if (process.env.BRAIN_DATA) {
   const data = JSON.parse(process.env.BRAIN_DATA);
   xp = data.xp;
-  omega = data.omega;
   energy = data.energy;
-  statsLog = data.statsLog;
+  health = data.health;
 } else {
   xp = readJSON('xp.json');
-  omega = readJSON('omega.json');
   energy = readJSON('energy.json');
-  statsLog = readLastLine('stats-log.jsonl');
+  health = readJSON('health.json');
 }
 
-// format omega with commas
-function fmt(n) {
-  return Math.round(n).toLocaleString('en-US');
-}
+// --- data ---
+const streak = energy?.current_streak || 0;
+const totalSessions = energy?.total_sessions || 0;
+const shipped = xp?.achievements?.filter(a =>
+  ['shipper', 'first_blood', 'brain_architect', 'flow_master'].includes(a)
+).length || 0;
+const projectCount = health?.projects ? Object.keys(health.projects).length : 0;
+const achievements = xp?.achievements?.length || 0;
 
-// sparkline from omega history (last 7 days)
-function sparkline(history) {
-  const pts = history.slice(-7);
-  if (pts.length < 2) return '';
+// streak text
+const streakText = streak > 0 ? `${streak} day build streak` : 'building things';
 
-  const values = pts.map(p => p.omega);
-  const min = Math.min(...values);
-  const max = Math.max(...values);
-  const range = max - min || 1;
+// projects text — count active ones (grade C or above)
+const activeProjects = health?.projects
+  ? Object.entries(health.projects)
+      .filter(([_, v]) => v.score >= 40)
+      .map(([k]) => k)
+  : [];
 
-  // sparkline area: x 340-460, y 130-165
-  const sx = 340, ex = 460, sy = 135, ey = 165;
-  const w = ex - sx;
-  const h = ey - sy;
+const projectLine = activeProjects.length > 0
+  ? activeProjects.slice(0, 3).join(', ') + (activeProjects.length > 3 ? ` + ${activeProjects.length - 3} more` : '')
+  : `${projectCount} projects`;
 
-  const points = values.map((v, i) => {
-    const x = sx + (i / (values.length - 1)) * w;
-    const y = ey - ((v - min) / range) * h;
-    return `${x.toFixed(1)},${y.toFixed(1)}`;
-  });
+// date
+const now = new Date();
+const months = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
+const dateStr = `${months[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
 
-  return `<polyline points="${points.join(' ')}" fill="none" stroke="#e8b661" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>`;
-}
+// --- quiet dark palette ---
+const bg = '#262626';
+const border = '#303030';
+const heading = '#e8e8e8';
+const body = '#c8c8c8';
+const dim = '#aaa';
+const muted = '#484848';
+const ghost = '#383838';
 
-const level = xp.level;
-const title = xp.title;
-const omegaVal = omega.omega;
-const streak = energy.current_streak;
-const nodes = statsLog.nodes;
-const edges = statsLog.edges;
-const multiplier = omega.multipliers.total;
-const totalXp = xp.total_xp;
+// --- svg ---
+// minimal, text-first, generous whitespace
+// no monospace, no colored badges, no dev chrome
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="130" viewBox="0 0 480 130">
+  <rect x="0.5" y="0.5" width="479" height="129" rx="3" ry="3" fill="${bg}" stroke="${border}" stroke-width="1"/>
 
-const spark = sparkline(omega.history);
+  <text x="28" y="38" fill="${heading}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="400" letter-spacing="-0.02em">ohm.</text>
+  <text x="66" y="38" fill="${muted}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="300" letter-spacing="-0.01em">ships code daily</text>
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="480" height="180" viewBox="0 0 480 180">
-  <rect x="1" y="1" width="478" height="178" rx="8" ry="8" fill="#262626" stroke="#333" stroke-width="1"/>
+  <text x="28" y="68" fill="${body}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="300" letter-spacing="-0.01em">${streakText}</text>
+  <text x="28" y="88" fill="${dim}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="300" letter-spacing="-0.01em">${projectCount} projects \u00b7 ${achievements} milestones</text>
 
-  <text x="24" y="36" fill="#d4d4d4" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="400">ohm. \u00b7 builder stats</text>
-
-  <text x="24" y="68" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="400">lv.${level}</text>
-  <text x="${64 + String(level).length * 4}" y="68" fill="#888" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="300">${title}</text>
-  <text x="240" y="68" fill="#e8b661" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="400">\u03A9 ${fmt(omegaVal)}</text>
-
-  <text x="24" y="100" fill="#e8b661" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="300">${streak}d streak \u{1F525}</text>
-  <text x="140" y="100" fill="#7da6d4" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="300">${fmt(nodes)} nodes \u00b7 ${fmt(edges)} edges</text>
-
-  <text x="24" y="130" fill="#7dbd7d" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="300">\u00d7${multiplier} multiplier</text>
-  <text x="160" y="130" fill="#888" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="300">${fmt(totalXp)} xp</text>
-
-  ${spark}
-
-  <text x="340" y="130" fill="#555" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="300">\u03A9 7d</text>
+  <text x="452" y="114" fill="${ghost}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9" font-weight="300" text-anchor="end">${dateStr}</text>
 </svg>`;
 
 const outPath = path.join(__dirname, 'stats-card.svg');
