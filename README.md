@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="stats-card.svg" alt="Builder Stats"/>
+  <img src="https://raw.githubusercontent.com/howwohmm/howwohmm/main/stats-card.svg" alt="Builder Stats"/>
 </p>
 
 ---
