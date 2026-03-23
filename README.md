@@ -10,6 +10,10 @@
   <img src="https://komarev.com/ghpvc/?username=howwohmm&style=flat-square&color=C8BEB0&label=visitors"/>
 </p>
 
+<p align="center">
+  <img src="stats-card.svg" alt="Builder Stats"/>
+</p>
+
 ---
 
 ### what i'm building
