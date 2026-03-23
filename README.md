@@ -1,12 +1,6 @@
 <br>
 
 <p align="center">
-  <em>i built a neural net that watches me code.</em>
-</p>
-
-<br>
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/howwohmm/howwohmm/main/stats-card.svg" alt="Builder Stats"/>
 </p>
 
@@ -23,6 +17,16 @@
 **refresh** — one ai-ranked headline per new tab
 
 **contrarian** — one pg quote per day
+
+---
+
+#### what i believe
+
+every great company starts by owning a small market completely
+
+the best interface is the one you barely notice
+
+ship daily or you're just planning
 
 ---
 
