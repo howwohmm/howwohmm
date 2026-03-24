@@ -89,8 +89,8 @@
   <!-- sparkline: 7d activity -->
   
   <text x="728" y="176" fill="#383838" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="9" font-weight="300" text-anchor="middle">7d</text>
-  <rect x="708.0" y="202.0" width="4" height="2.0" rx="1" fill="#c8c8c8" opacity="0.28"/>
-  <rect x="744.0" y="180.0" width="4" height="24.0" rx="1" fill="#c8c8c8" opacity="0.75"/>
+  <rect x="708.0" y="180.0" width="4" height="24.0" rx="1" fill="#c8c8c8" opacity="0.75"/>
+  <rect x="744.0" y="189.6" width="4" height="14.4" rx="1" fill="#c8c8c8" opacity="0.55"/>
   
 
   <!-- updated -->
