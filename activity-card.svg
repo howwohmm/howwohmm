@@ -4,8 +4,8 @@
   <!-- left: session distribution -->
   <text x="20" y="24" fill="#484848" font-size="10" font-family="-apple-system, sans-serif" font-weight="400" letter-spacing="0.5">sessions</text>
   <text x="60" y="48" fill="#484848" font-size="10" font-family="-apple-system, sans-serif" text-anchor="end">&lt;5m</text>
-  <rect x="70" y="38" width="110.76923076923077" height="12" rx="2" fill="#c8c8c8" opacity="1" />
-  <text x="186.76923076923077" y="48" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">8</text>
+  <rect x="70" y="38" width="124.61538461538461" height="12" rx="2" fill="#c8c8c8" opacity="1" />
+  <text x="200.6153846153846" y="48" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">9</text>
   <text x="60" y="64" fill="#484848" font-size="10" font-family="-apple-system, sans-serif" text-anchor="end">5-15</text>
   <rect x="70" y="54" width="55.38461538461539" height="12" rx="2" fill="#c8c8c8" opacity="0.8" />
   <text x="131.3846153846154" y="64" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">4</text>
@@ -25,9 +25,9 @@
   <!-- right: key stats -->
   <text x="430" y="24" fill="#484848" font-size="10" font-family="-apple-system, sans-serif" font-weight="400" letter-spacing="0.5">this week</text>
   <text x="430" y="38" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">73h total</text>
-  <text x="430" y="55" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">19 sessions today</text>
+  <text x="430" y="55" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">20 sessions today</text>
   <text x="430" y="72" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">peak: evening</text>
   <text x="430" y="89" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">longest: 731 min</text>
-  <text x="430" y="106" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">avg: 126 min</text>
+  <text x="430" y="106" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">avg: 122 min</text>
 
 </svg>
