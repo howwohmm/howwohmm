@@ -75,7 +75,7 @@
   <line x1="36" y1="152" x2="764" y2="152" stroke="#303030" stroke-width="0.5"/>
 
   <!-- bottom row -->
-  <text x="36" y="176" fill="#c8c8c8" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="300">3 day build streak</text>
+  <text x="36" y="176" fill="#c8c8c8" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="300">4 day build streak</text>
   <text x="36" y="196" fill="#484848" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10" font-weight="300">shipping since mar 2026</text>
 
   <!-- sparkline: 7d activity -->
