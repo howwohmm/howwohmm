@@ -25,7 +25,7 @@
   <!-- right: key stats -->
   <text x="430" y="24" fill="#484848" font-size="10" font-family="-apple-system, sans-serif" font-weight="400" letter-spacing="0.5">this week</text>
   <text x="430" y="38" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">75h total</text>
-  <text x="430" y="55" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">3 sessions today</text>
+  <text x="430" y="55" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">0 sessions today</text>
   <text x="430" y="72" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">peak: evening</text>
   <text x="430" y="89" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">longest: 731 min</text>
   <text x="430" y="106" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">avg: 100 min</text>
