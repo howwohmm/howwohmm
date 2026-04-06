@@ -5,19 +5,19 @@
   <text x="20" y="24" fill="#484848" font-size="10" font-family="-apple-system, sans-serif" font-weight="400" letter-spacing="0.5">sessions</text>
   <text x="60" y="48" fill="#484848" font-size="10" font-family="-apple-system, sans-serif" text-anchor="end">&lt;5m</text>
   <rect x="70" y="38" width="180" height="12" rx="2" fill="#c8c8c8" opacity="1" />
-  <text x="256" y="48" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">51</text>
+  <text x="256" y="48" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">52</text>
   <text x="60" y="64" fill="#484848" font-size="10" font-family="-apple-system, sans-serif" text-anchor="end">5-15</text>
-  <rect x="70" y="54" width="109.41176470588235" height="12" rx="2" fill="#c8c8c8" opacity="0.8" />
-  <text x="185.41176470588235" y="64" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">31</text>
+  <rect x="70" y="54" width="107.3076923076923" height="12" rx="2" fill="#c8c8c8" opacity="0.8" />
+  <text x="183.30769230769232" y="64" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">31</text>
   <text x="60" y="80" fill="#484848" font-size="10" font-family="-apple-system, sans-serif" text-anchor="end">15-30</text>
-  <rect x="70" y="70" width="35.294117647058826" height="12" rx="2" fill="#c8c8c8" opacity="0.6" />
-  <text x="111.29411764705883" y="80" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">10</text>
+  <rect x="70" y="70" width="34.61538461538462" height="12" rx="2" fill="#c8c8c8" opacity="0.6" />
+  <text x="110.61538461538461" y="80" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">10</text>
   <text x="60" y="96" fill="#484848" font-size="10" font-family="-apple-system, sans-serif" text-anchor="end">30-60</text>
-  <rect x="70" y="86" width="38.82352941176471" height="12" rx="2" fill="#c8c8c8" opacity="0.45" />
-  <text x="114.82352941176471" y="96" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">11</text>
+  <rect x="70" y="86" width="38.07692307692307" height="12" rx="2" fill="#c8c8c8" opacity="0.45" />
+  <text x="114.07692307692307" y="96" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">11</text>
   <text x="60" y="112" fill="#484848" font-size="10" font-family="-apple-system, sans-serif" text-anchor="end">60+</text>
-  <rect x="70" y="102" width="60" height="12" rx="2" fill="#c8c8c8" opacity="0.3" />
-  <text x="136" y="112" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">17</text>
+  <rect x="70" y="102" width="58.84615384615385" height="12" rx="2" fill="#c8c8c8" opacity="0.3" />
+  <text x="134.84615384615384" y="112" fill="#383838" font-size="10" font-family="-apple-system, sans-serif">17</text>
 
   <!-- divider -->
   <line x1="400" y1="14" x2="400" y2="126" stroke="#303030" stroke-width="1" />
@@ -25,9 +25,9 @@
   <!-- right: key stats -->
   <text x="430" y="24" fill="#484848" font-size="10" font-family="-apple-system, sans-serif" font-weight="400" letter-spacing="0.5">this week</text>
   <text x="430" y="38" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">146h total</text>
-  <text x="430" y="55" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">9 sessions today</text>
+  <text x="430" y="55" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">10 sessions today</text>
   <text x="430" y="72" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">peak: evening</text>
   <text x="430" y="89" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">longest: 1740 min</text>
-  <text x="430" y="106" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">avg: 73 min</text>
+  <text x="430" y="106" fill="#c8c8c8" font-size="11" font-family="-apple-system, sans-serif" font-weight="300">avg: 72 min</text>
 
 </svg>
