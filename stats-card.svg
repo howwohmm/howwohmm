@@ -7,52 +7,51 @@
 
   <!-- constellation background -->
   <g opacity="0.6">
-  <line x1="706.6" y1="121.6" x2="704.5" y2="88.3" stroke="#303030" stroke-width="0.5"/>
-  <line x1="706.6" y1="121.6" x2="744.3" y2="92.1" stroke="#303030" stroke-width="0.5"/>
-  <line x1="662.1" y1="187.1" x2="638.6" y2="179.2" stroke="#303030" stroke-width="0.5"/>
-  <line x1="662.1" y1="187.1" x2="684.1" y2="183.7" stroke="#303030" stroke-width="0.5"/>
-  <line x1="662.1" y1="187.1" x2="624.3" y2="154.5" stroke="#303030" stroke-width="0.5"/>
-  <line x1="662.1" y1="187.1" x2="721.1" y2="179.5" stroke="#303030" stroke-width="0.5"/>
-  <line x1="662.1" y1="187.1" x2="690.6" y2="159.4" stroke="#303030" stroke-width="0.5"/>
-  <line x1="601.1" y1="68.0" x2="572.0" y2="72.1" stroke="#303030" stroke-width="0.5"/>
-  <line x1="704.5" y1="88.3" x2="713.5" y2="117.1" stroke="#303030" stroke-width="0.5"/>
-  <line x1="704.5" y1="88.3" x2="703.6" y2="123.4" stroke="#303030" stroke-width="0.5"/>
-  <line x1="704.5" y1="88.3" x2="744.3" y2="92.1" stroke="#303030" stroke-width="0.5"/>
-  <line x1="633.1" y1="125.5" x2="638.6" y2="179.2" stroke="#303030" stroke-width="0.5"/>
-  <line x1="633.1" y1="125.5" x2="612.6" y2="147.6" stroke="#303030" stroke-width="0.5"/>
-  <line x1="638.6" y1="179.2" x2="612.6" y2="147.6" stroke="#303030" stroke-width="0.5"/>
-  <line x1="638.6" y1="179.2" x2="684.1" y2="183.7" stroke="#303030" stroke-width="0.5"/>
-  <line x1="638.6" y1="179.2" x2="690.6" y2="159.4" stroke="#303030" stroke-width="0.5"/>
-  <line x1="684.1" y1="183.7" x2="723.3" y2="144.9" stroke="#303030" stroke-width="0.5"/>
-  <line x1="684.1" y1="183.7" x2="721.1" y2="179.5" stroke="#303030" stroke-width="0.5"/>
-  <line x1="713.5" y1="117.1" x2="703.6" y2="123.4" stroke="#303030" stroke-width="0.5"/>
-  <line x1="713.5" y1="117.1" x2="744.3" y2="92.1" stroke="#303030" stroke-width="0.5"/>
-  <line x1="713.5" y1="117.1" x2="723.3" y2="144.9" stroke="#303030" stroke-width="0.5"/>
-  <line x1="713.5" y1="117.1" x2="690.6" y2="159.4" stroke="#303030" stroke-width="0.5"/>
-  <line x1="703.6" y1="123.4" x2="744.3" y2="92.1" stroke="#303030" stroke-width="0.5"/>
-  <line x1="703.6" y1="123.4" x2="723.3" y2="144.9" stroke="#303030" stroke-width="0.5"/>
-  <line x1="703.6" y1="123.4" x2="721.1" y2="179.5" stroke="#303030" stroke-width="0.5"/>
-  <line x1="744.3" y1="92.1" x2="723.3" y2="144.9" stroke="#303030" stroke-width="0.5"/>
-  <line x1="744.3" y1="92.1" x2="733.9" y2="62.5" stroke="#303030" stroke-width="0.5"/>
-  <line x1="721.1" y1="179.5" x2="690.6" y2="159.4" stroke="#303030" stroke-width="0.5"/>
-  <circle cx="706.6" cy="121.6" r="1.7" fill="#383838"/>
-  <circle cx="662.1" cy="187.1" r="1.3" fill="#383838"/>
-  <circle cx="601.1" cy="68.0" r="1.6" fill="#383838"/>
-  <circle cx="704.5" cy="88.3" r="2.2" fill="#383838"/>
-  <circle cx="633.1" cy="125.5" r="2.2" fill="#383838"/>
-  <circle cx="638.6" cy="179.2" r="1.2" fill="#383838"/>
-  <circle cx="612.6" cy="147.6" r="2.0" fill="#383838"/>
-  <circle cx="684.1" cy="183.7" r="1.4" fill="#383838"/>
-  <circle cx="713.5" cy="117.1" r="2.2" fill="#383838"/>
-  <circle cx="703.6" cy="123.4" r="2.4" fill="#383838"/>
-  <circle cx="572.0" cy="72.1" r="1.2" fill="#484848"/>
-  <circle cx="744.3" cy="92.1" r="2.0" fill="#383838"/>
-  <circle cx="637.1" cy="80.4" r="1.4" fill="#484848"/>
-  <circle cx="723.3" cy="144.9" r="1.2" fill="#484848"/>
-  <circle cx="624.3" cy="154.5" r="2.3" fill="#383838"/>
-  <circle cx="721.1" cy="179.5" r="1.5" fill="#383838"/>
-  <circle cx="733.9" cy="62.5" r="2.5" fill="#383838"/>
-  <circle cx="690.6" cy="159.4" r="2.5" fill="#383838"/>
+  <line x1="669.8" y1="81.3" x2="700.8" y2="81.8" stroke="#303030" stroke-width="0.5"/>
+  <line x1="669.8" y1="81.3" x2="629.7" y2="117.1" stroke="#303030" stroke-width="0.5"/>
+  <line x1="669.8" y1="81.3" x2="628.3" y2="103.9" stroke="#303030" stroke-width="0.5"/>
+  <line x1="669.8" y1="81.3" x2="699.7" y2="107.2" stroke="#303030" stroke-width="0.5"/>
+  <line x1="669.8" y1="81.3" x2="726.1" y2="67.4" stroke="#303030" stroke-width="0.5"/>
+  <line x1="669.8" y1="81.3" x2="713.4" y2="107.8" stroke="#303030" stroke-width="0.5"/>
+  <line x1="715.6" y1="119.9" x2="699.7" y2="107.2" stroke="#303030" stroke-width="0.5"/>
+  <line x1="715.6" y1="119.9" x2="726.1" y2="67.4" stroke="#303030" stroke-width="0.5"/>
+  <line x1="715.6" y1="119.9" x2="713.4" y2="107.8" stroke="#303030" stroke-width="0.5"/>
+  <line x1="682.8" y1="145.4" x2="684.1" y2="192.7" stroke="#303030" stroke-width="0.5"/>
+  <line x1="682.8" y1="145.4" x2="728.4" y2="152.1" stroke="#303030" stroke-width="0.5"/>
+  <line x1="682.8" y1="145.4" x2="658.8" y2="199.2" stroke="#303030" stroke-width="0.5"/>
+  <line x1="682.8" y1="145.4" x2="713.4" y2="107.8" stroke="#303030" stroke-width="0.5"/>
+  <line x1="700.8" y1="81.8" x2="717.1" y2="35.7" stroke="#303030" stroke-width="0.5"/>
+  <line x1="684.1" y1="192.7" x2="676.1" y2="180.7" stroke="#303030" stroke-width="0.5"/>
+  <line x1="684.1" y1="192.7" x2="719.9" y2="166.1" stroke="#303030" stroke-width="0.5"/>
+  <line x1="676.1" y1="180.7" x2="658.8" y2="199.2" stroke="#303030" stroke-width="0.5"/>
+  <line x1="629.7" y1="117.1" x2="616.4" y2="122.0" stroke="#303030" stroke-width="0.5"/>
+  <line x1="717.1" y1="35.7" x2="696.7" y2="21.2" stroke="#303030" stroke-width="0.5"/>
+  <line x1="628.3" y1="103.9" x2="661.0" y2="143.6" stroke="#303030" stroke-width="0.5"/>
+  <line x1="628.3" y1="103.9" x2="616.4" y2="122.0" stroke="#303030" stroke-width="0.5"/>
+  <line x1="699.7" y1="107.2" x2="728.4" y2="152.1" stroke="#303030" stroke-width="0.5"/>
+  <line x1="719.9" y1="166.1" x2="728.4" y2="152.1" stroke="#303030" stroke-width="0.5"/>
+  <line x1="719.9" y1="166.1" x2="713.4" y2="107.8" stroke="#303030" stroke-width="0.5"/>
+  <line x1="661.0" y1="143.6" x2="658.8" y2="199.2" stroke="#303030" stroke-width="0.5"/>
+  <line x1="661.0" y1="143.6" x2="616.4" y2="122.0" stroke="#303030" stroke-width="0.5"/>
+  <line x1="728.4" y1="152.1" x2="713.4" y2="107.8" stroke="#303030" stroke-width="0.5"/>
+  <circle cx="669.8" cy="81.3" r="1.9" fill="#383838"/>
+  <circle cx="715.6" cy="119.9" r="2.4" fill="#383838"/>
+  <circle cx="682.8" cy="145.4" r="1.6" fill="#383838"/>
+  <circle cx="700.8" cy="81.8" r="1.6" fill="#383838"/>
+  <circle cx="684.1" cy="192.7" r="1.5" fill="#383838"/>
+  <circle cx="676.1" cy="180.7" r="2.5" fill="#383838"/>
+  <circle cx="629.7" cy="117.1" r="1.8" fill="#383838"/>
+  <circle cx="717.1" cy="35.7" r="2.7" fill="#383838"/>
+  <circle cx="628.3" cy="103.9" r="1.7" fill="#484848"/>
+  <circle cx="699.7" cy="107.2" r="2.3" fill="#383838"/>
+  <circle cx="719.9" cy="166.1" r="1.7" fill="#484848"/>
+  <circle cx="661.0" cy="143.6" r="2.7" fill="#484848"/>
+  <circle cx="696.7" cy="21.2" r="1.5" fill="#484848"/>
+  <circle cx="728.4" cy="152.1" r="2.6" fill="#383838"/>
+  <circle cx="726.1" cy="67.4" r="2.5" fill="#383838"/>
+  <circle cx="658.8" cy="199.2" r="2.0" fill="#484848"/>
+  <circle cx="616.4" cy="122.0" r="2.5" fill="#383838"/>
+  <circle cx="713.4" cy="107.8" r="1.3" fill="#383838"/>
   </g>
 
   <!-- top border -->
@@ -67,12 +66,12 @@
 
   <!-- main content -->
   <text x="36" y="82" fill="#484848" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="10" font-weight="300" letter-spacing="0.04em">currently building</text>
-  <text x="36" y="102" fill="#c8c8c8" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="400" letter-spacing="-0.01em">candid  ·  ruasafterclass  ·  ohm-spotify</text>
+  <text x="36" y="102" fill="#c8c8c8" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="400" letter-spacing="-0.01em">ruasafterclass  ·  candid  ·  ohm-spotify</text>
 
   <!-- stats row -->
-  <text x="36" y="134" fill="#aaa" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="300">6.1k nodes</text>
+  <text x="36" y="134" fill="#aaa" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="300">6.2k nodes</text>
   <text x="120" y="134" fill="#383838" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="300">·</text>
-  <text x="132" y="134" fill="#aaa" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="300">184.0k edges</text>
+  <text x="132" y="134" fill="#aaa" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="300">185.9k edges</text>
   <text x="230" y="134" fill="#383838" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="300">·</text>
   <text x="242" y="134" fill="#aaa" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="300">89 projects</text>
   <text x="330" y="134" fill="#383838" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="300">·</text>
